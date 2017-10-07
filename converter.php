@@ -25,7 +25,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package Cola
+ * @package image-data-uri
  * @author  Emre Can ÖZTAŞ <emrecanoztas@outlook.com>
  * @license http://opensource.org/licenses/MIT  MIT License
  * @link    https://github.com/emrecanoztas/dataURI
