@@ -5,18 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
     <style type="text/css">
-        body {
-           text-align: center; 
-        }
-
-        textarea {
-            width: 320px;
-            height: 250px;
-        }
+        body {text-align: center; }
+        textarea {width: 320px;height: 250px;}
     </style>
-
 </head>
 <body>
 
@@ -35,11 +27,11 @@
 
     <!-- PHP-codes -->
     <?php
-    require_once('./converter.php');
+    require('Converter.service.php');
     
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_FILES['file'])) {
-            $result = dataURI($_FILES['file']['tmp_name']);
+            $result = convertData($_FILES['file']['tmp_name']);
 
             if (!empty($result)) {          
     ?>
