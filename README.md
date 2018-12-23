@@ -23,7 +23,7 @@ metoduna, çevrilmesini istediğiniz resim dosyasının yolu yazılmalıdır.
 Canlı bir örnek olarak;
 
 ```
-$src = convertImageDataURI('./the-good-the-bad-and-the-ugly.jpg');
+$source = convertImageDataURI('./the-good-the-bad-and-the-ugly.jpg');
 ```
 
 Daha sonrasında;
