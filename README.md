@@ -13,7 +13,8 @@ Daha detaylı bilgi edinmek için; [buradan](https://emrecanoztas.com/php-ile-im
 PHP >= 5.3
 
 ### Kullanımı:
-method.imagedatauri.php dosyasınızı sayfanıza dahil ettikten sonra; 
+`method.imagedatauri.php` dosyasını sayfanıza dahil ettikten sonra; 
+
 ```
 convertImageDataURI($path);
 ```
